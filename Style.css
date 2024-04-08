@@ -1,0 +1,60 @@
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.list-group-item img {
+    width: 4%;
+    height: 5%;
+    margin-right: 2%;
+}
+
+.h1 {
+    margin-bottom: 2%;
+}
+
+.list-group-item:hover {
+    background-color: #b2f0f0;
+}
+
+.list-group-item:hover img {
+    transform: scale(1.1); 
+}
+
+.primary {
+    background-color: #ff00ff;
+}
+
+.primary:hover {
+    background-color: #ff00ff;
+}
+
+.link {
+    color: #dc143c;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #dc143c;
+}
+
+#routes {
+    background-color: #ffdb58;
+}
+
+.hide {
+    display: none;
+}
+
+.brown {
+    background-color: #a52a2a;
+}
+
+.cream {
+    background-color: #fffdd0;
+}
+
+.violet {
+    background-color: #8a2be2;
+}
